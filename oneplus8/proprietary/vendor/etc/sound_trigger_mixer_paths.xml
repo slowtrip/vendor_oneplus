@@ -270,7 +270,7 @@
         <ctl name="VA DEC1 MUX" value="MSM_DMIC" />
         <!-- liuhaituo@MM.Audio, 2019/10/18, Modify mic config -->
         <ctl name="VA DMIC MUX0" value="DMIC1" />
-        <ctl name="VA DMIC MUX1" value="DMIC2" />
+        <ctl name="VA DMIC MUX1" value="DMIC3" />
     </path>
 
     <!-- liuhaituo@MM.Audio, 2019/11/18, modify va-mic clock for barge-in mode -->
