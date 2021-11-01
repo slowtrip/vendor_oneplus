@@ -6,31 +6,79 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/oneplus8t
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/oneplus8t/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/odm/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/General_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/odm/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Global_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/odm/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Handset_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/odm/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/odm/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Headset_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/odm/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Speaker_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/odm/etc/acdbdata/acdb_version:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/acdb_version \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_workspaceFile.qwsp \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/audio_io_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_io_policy.conf \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/audio_tuning_mixer.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer.txt \
     vendor/oneplus/oneplus8t/proprietary/vendor/etc/camera/ashdr/ncf_pack_imx481.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/ncf_pack_imx481.ncf \
     vendor/oneplus/oneplus8t/proprietary/vendor/etc/camera/ashdr/ncf_pack_imx586.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/ncf_pack_imx586.ncf \
     vendor/oneplus/oneplus8t/proprietary/vendor/etc/camera/calibrationOutput_uw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/calibrationOutput_uw.bin \
     vendor/oneplus/oneplus8t/proprietary/vendor/etc/camera/distortion_result.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/distortion_result.bin \
     vendor/oneplus/oneplus8t/proprietary/vendor/etc/init/calibrationOutput_uw.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/calibrationOutput_uw.rc \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/sensors/config/icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/icm4x6xx_0.json \
     vendor/oneplus/oneplus8t/proprietary/vendor/etc/sensors/config/kona_T0_sx9324_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_T0_sx9324_0.json \
     vendor/oneplus/oneplus8t/proprietary/vendor/etc/sensors/config/kona_T0_sx9324up_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_T0_sx9324up_0.json \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/sensors/config/kona_amd_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_amd_sw_disabled.json \
     vendor/oneplus/oneplus8t/proprietary/vendor/etc/sensors/config/kona_bmi26x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_bmi26x_0.json \
     vendor/oneplus/oneplus8t/proprietary/vendor/etc/sensors/config/kona_bmp380_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_bmp380_0.json \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/sensors/config/kona_icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_icm4x6xx_0.json \
     vendor/oneplus/oneplus8t/proprietary/vendor/etc/sensors/config/kona_mmc5603x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_mmc5603x_0.json \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/sensors/config/kona_svr_icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_svr_icm4x6xx_0.json \
     vendor/oneplus/oneplus8t/proprietary/vendor/etc/sensors/config/kona_sx9324_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_sx9324_0.json \
     vendor/oneplus/oneplus8t/proprietary/vendor/etc/sensors/config/kona_sx9324up_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_sx9324up_0.json \
     vendor/oneplus/oneplus8t/proprietary/vendor/etc/sensors/config/kona_tcs3408.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_tcs3408.json \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
+    vendor/oneplus/oneplus8t/proprietary/vendor/etc/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml \
+    vendor/oneplus/oneplus8t/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
+    vendor/oneplus/oneplus8t/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
+    vendor/oneplus/oneplus8t/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
+    vendor/oneplus/oneplus8t/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
+    vendor/oneplus/oneplus8t/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so \
+    vendor/oneplus/oneplus8t/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so \
+    vendor/oneplus/oneplus8t/proprietary/vendor/lib/rfsa/adsp/capi_v2_dap_cpdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_dap_cpdp.so \
+    vendor/oneplus/oneplus8t/proprietary/vendor/lib/rfsa/adsp/libMFSR_FRT_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libMFSR_FRT_skel.so \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib/rfsa/adsp/libvdsuperphoto_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvdsuperphoto_skel.so \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/com.qti.sensor.gc02m1b.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.gc02m1b.so \
+    vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/com.qti.sensor.gc5035.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.gc5035.so \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/com.qti.sensor.imx471.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx471.so \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/com.qti.sensor.imx481.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx481.so \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/com.qti.sensor.imx586.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx586.so \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/com.qti.sensormodule.holitech_gc02m1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.holitech_gc02m1b.bin \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/com.qti.sensormodule.qtech_imx481.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qtech_imx481.bin \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/com.qti.sensormodule.semco_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.semco_imx586.bin \
+    vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/com.qti.sensormodule.shine_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.shine_gc5035.bin \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/com.qti.sensormodule.truly_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.truly_imx471.bin \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/com.qti.tuned.holitech_gc02m1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.holitech_gc02m1b.bin \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/com.qti.tuned.qtech_imx481.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.qtech_imx481.bin \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/com.qti.tuned.semco_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.semco_imx586.bin \
+    vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/com.qti.tuned.shine_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.shine_gc5035.bin \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/com.qti.tuned.truly_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.truly_imx471.bin \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/components/com.oneplus.node.cfrsnapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oneplus.node.cfrsnapshot.so \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/camera/components/com.oneplus.node.cfrvideo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oneplus.node.cfrvideo.so \
@@ -73,6 +121,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/hw/goodix.fod.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/goodix.fod.kona.so \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/hw/goodix.g6.fod.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/goodix.g6.fod.kona.so \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/libVDSuperPhotoAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDSuperPhotoAPI.so \
+    vendor/oneplus/oneplus8t/proprietary/vendor/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdb-fts.so \
+    vendor/oneplus/oneplus8t/proprietary/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
+    vendor/oneplus/oneplus8t/proprietary/vendor/lib64/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbrtac.so \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/libarcsoft_hdr_couple_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_couple_api.so \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/libarcsoft_hdr_denoise_api_v4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_denoise_api_v4.so \
     vendor/oneplus/oneplus8t/proprietary/vendor/lib64/libarcsoft_high_dynamic_range_couple.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range_couple.so \
